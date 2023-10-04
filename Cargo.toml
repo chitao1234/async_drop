@@ -1,0 +1,18 @@
+[package]
+name = "async_drop"
+version = "0.1.0"
+edition = "2021"
+authors = ["chitaotao"]
+description = "A really primitive crate that propose an standard for async drop"
+readme = "README.md"
+repository = "https://github.com/chitao1234/"
+license = "MIT"
+keywords = ["async", "drop"]
+categories = ["asynchronous"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
+tokio = { version = "1.32.0", features = ["test-util", "macros"] }
